@@ -1,0 +1,2232 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+
+
+<title>정보공개 참여 &gt; 학교급식 &gt; 오늘의 밥상</title>
+
+<script type="text/javascript">
+//<![CDATA[
+	var dirPath = '..';
+	var currLeftMenu = '';
+//]]>
+
+
+</script>
+<script type="text/javascript" src="../lib/function.js"></script>
+<script type="text/javascript" src="../lib/jquery/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../lib/jquery/ui/jquery-ui.js"></script>
+<script type="text/javascript" src="../lib/jquery/daterangepicker-master/moment.min.js"></script>
+<script type="text/javascript" src="../lib/jquery/daterangepicker-master/daterangepicker.js"></script>
+<link rel="stylesheet" type="text/css" href="../lib/jquery/daterangepicker-master/daterangepicker.css" />
+<link rel="stylesheet" type="text/css" href="../lib/jquery/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="../lib/jquery/ui/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="../lib/jquery/camera/css/camera.css" />
+
+<!--<script type="text/javascript" src="../lib/jquery/video/video-player.js"></script>-->
+<script type="text/javascript">
+//<![CDATA[
+	var j$ = jQuery.noConflict();	
+//]]>
+</script>
+<script type="text/javascript" src="../data_files/skin/skin_res_1/js/common.js"></script>
+<script type="text/javascript" src="../data_files/skin/skin_res_1/js/skin.js"></script>
+<script type="text/javascript" src="../lib/jquery/slick/slick.js"></script>
+<script type="text/javascript" src="../lib/jquery/camera/camera.js"></script>
+<script type="text/javascript" src="../lib/jquery/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="../lib/jquery/jquery.tm.horizon.js"></script>
+<script type="text/javascript" src="../lib/jquery/quick_scroll/jquery.scrollfollow.js"></script>
+<script type="text/javascript" src="../lib/fun_board.js"></script>
+<script type="text/javascript" src="../lib/jquery/gallery/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="../lib/jquery/gallery/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="../lib/jquery/gallery/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="../lib/jquery/gallery/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<link rel="stylesheet" type="text/css" href="../data_files/skin/skin_res_1/css/sub.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../data_files/images/icon/css/font-awesome.css?v=4.4.0" />
+
+<!--[if lte IE 7]><link href="../data_files/skin/skin_res_1/css/ie7.css" rel="stylesheet" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="../xboard/skin/new_food/style.css" />
+<link rel="stylesheet" type="text/css" href="../data_files/skin/skin_res_1/css/member.css" />
+<!--[if lte IE 7]><link href="../data_files/css/ie7.css" rel="stylesheet" /><![endif]-->
+<!--[if lt IE 9]><link href="../data_files/css/ie9_under.css" rel="stylesheet" /><![endif]-->
+<link href="../lib/jquery/gallery/jquery.fancybox.css?v=2.1.5" rel="stylesheet" />
+<link href="../lib/jquery/gallery/helpers/jquery.fancybox-buttons.css?v=1.0.5" rel="stylesheet" />
+<link href="../lib/jquery/gallery/helpers/jquery.fancybox-thumbs.css?v=1.0.7" rel="stylesheet" />
+<link href="../data_files/skin/skin_res_1/css/print.css" rel="stylesheet" type="text/css" media="print" />
+
+
+</head>
+
+
+<body onload="chk_popup(); "><!--  InitializeStaticMenu('sub'); -->
+
+<!-- 네비스킵-->
+<ul id="skipnavigation">
+	<li><a href="#navi1">주 메뉴 바로가기</a></li>
+	<li><a href="#content">본문 바로가기</a></li>
+</ul>
+
+
+<div id="wrap">
+<!-- 헤더 -->
+	<div id="header">
+		<div class="default_layout">
+			<h1><a href="../main/main.php">광주소프트웨어마이스터고등학교</a></h1>
+            <p class="home_m"><a href="../main/main.php"><i class="fa fa-home" aria-hidden="true"></i></a></p>
+            <ul class="flagbox">
+            	<li><a href="../english"><span></span>English</a></li>
+                <li><a href="../japan"><span></span>日本語</a></li>
+                <li><a href="../china"><span></span>中国語</a></li>
+            </ul>
+			<div class="util">
+				<ul class="info">
+					 
+					
+					<li class="log"><a href="../member/index.php?mode=login&amp;targetUrl=L3hib2FyZC9ib2FyZC5waHA-dGJudW09NDI!"><span class="mic"><i class="fa fa-unlock-alt" aria-hidden="true"></i></span><span class="icdot"></span>로그인</a></li>
+					<li class="top_util_ic2"><a href="../member/index.php?mode=write"><span class="icdot"></span>회원가입</a></li>
+					
+					<li class="last"><a href="../sub/page.php?page_code=help_sitemap&amp;mode=sitemap"><span class="icdot"></span>사이트맵</a></li>
+				</ul>
+			</div>
+            
+		<!-- 메뉴 -->
+			<h2 class="hidden">주메뉴입니다.</h2>
+            <div id="nav-container">
+                <p class="m_nav_bg"></p>
+                <p class="menu_btn"><a href="#none;" title="메뉴보기"><i class="fa fa-bars"></i></a></p>
+                <div class="m_menu_btn">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </div>
+                <div id="m_nav_box">
+                    <ul id="topMenu">
+                        
+                        <li id="topMenu1" class="menu_list "> <a href="../sub/page.php?page_code=info_01"  id="navi1" class=" depth_link "    >학교소개</a>
+                            <div id="topMenu1Sub"  class="depth_box"> 
+                                
+                                <ul>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=info_01"   >인사말</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=info_09"   >마이스터고란?</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=info_02"   >교육목표</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=info_10"   >학교연혁</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=info_11"   >학교현황</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=info_12"   >학교상징</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=info_13"   >교훈&amp;교가</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=info_03_01"   >학과소개</a>
+                                        
+                                        
+                                        <ul class="three_depth">
+                                        
+                                            <li><a href="../sub/page.php?page_code=info_03_01" class=" "   >- 소프트웨어개발과</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../sub/page.php?page_code=info_03_02" class=" "   >- 스마트 IOT(Internet of Things)과</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../sub/page.php?page_code=info_03_03" class=" "   >- 인공지능(AI)과</a></li>
+                                        
+                                        </ul>
+                                        
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=info_04"   >교직원소개</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=info_05"   >홍보동영상</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=1"   >학교규칙</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=info_07"   >찾아오시는길</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="http://www.schoolinfo.go.kr/index.jsp?HG_CD=F100000120"  target="_blank" >학교알리미</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                 
+                            </div>
+                        </li>
+                        
+                        <li id="topMenu2" class="menu_list "> <a href="../sub/page.php?page_code=entrance_01"  id="navi2" class=" depth_link "    >입학안내</a>
+                            <div id="topMenu2Sub"  class="depth_box"> 
+                                
+                                <ul>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=entrance_01"   >입학전형요강</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=65"   >입학 관련 공지</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=2"   >입학 FAQ</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=3"   >입학 Q&amp;A</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="https://calculate.hellogsm.kr/"  target="_blank" >모의성적산출</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=4"   >입학자료실</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                 
+                            </div>
+                        </li>
+                        
+                        <li id="topMenu3" class="menu_list "> <a href="../xboard/board.php?tbnum=5"  id="navi3" class=" depth_link "    >학교소식</a>
+                            <div id="topMenu3Sub"  class="depth_box"> 
+                                
+                                <ul>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=5"   >공지사항</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=6"   >학사일정</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=7"   >가정통신문</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=8"   >보도자료</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=9"   >기숙사소식</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=10"   >도서관소식</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=11"   >보건소식</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=12"   >상담실소식</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=13"   >행사갤러리</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xresearch"  target="_blank" >설문조사</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=14"   >학부모 열린게시판</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=63"   >사이버 건의함</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                 
+                            </div>
+                        </li>
+                        
+                        <li id="topMenu4" class="menu_list "> <a href="../xboard/board.php?tbnum=66"  id="navi4" class=" depth_link "    >교육마당</a>
+                            <div id="topMenu4Sub"  class="depth_box"> 
+                                
+                                <ul>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=66"   >예비신입생</a>
+                                        
+                                        
+                                        <ul class="three_depth">
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=66" class=" "   >- 과제물 제출</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=15" class=" "   >- 안내사항</a></li>
+                                        
+                                        </ul>
+                                        
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=18"   >방과후학교</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=19"   >전공동아리</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=20"   >창의적체험활동</a>
+                                        
+                                        
+                                        <ul class="three_depth">
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=20" class=" "   >- 창체동아리</a></li>
+                                        
+                                        </ul>
+                                        
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=23"   >교육과정 운영계획</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=24"   >교과운영 및 평가계획</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=25"   >교육과정</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=26"   >대회안내</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=16"   >인성교육</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=17"   >정보통신윤리교육</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=67"   >자기주도진로체험</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                 
+                            </div>
+                        </li>
+                        
+                        <li id="topMenu5" class="menu_list "> <a href="../xboard/board.php?tbnum=27"  id="navi5" class=" depth_link "    >학생마당</a>
+                            <div id="topMenu5Sub"  class="depth_box"> 
+                                
+                                <ul>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=27"   >학생자료실</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=60"   >학습자료실</a>
+                                        
+                                        
+                                        <ul class="three_depth">
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=60" class=" "   >- 1학년 자료실</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=61" class=" "   >- 2학년 자료실</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=62" class=" "   >- 3학년 자료실</a></li>
+                                        
+                                        </ul>
+                                        
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=28"   >학교폭력신고</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=29"   >위클래스</a>
+                                        
+                                        
+                                        <ul class="three_depth">
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=29" class=" "   >- 공지사항</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=30" class=" "   >- 비공개상담</a></li>
+                                        
+                                        </ul>
+                                        
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=31"   >학생게시판</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                 
+                            </div>
+                        </li>
+                        
+                        <li id="topMenu6" class="menu_list "> <a href="../sub/page.php?page_code=research_01_04"  id="navi6" class=" depth_link "    >연구학교</a>
+                            <div id="topMenu6Sub"  class="depth_box"> 
+                                
+                                <ul>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=research_01_04"   >연구 개요</a>
+                                        
+                                        
+                                        <ul class="three_depth">
+                                        
+                                            <li><a href="../sub/page.php?page_code=research_01_01" class=" "   >- 연구 주제1</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../sub/page.php?page_code=research_01_02" class=" "   >- 연구 주제2</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../sub/page.php?page_code=research_01_04" class=" "   >- 연구 주제3</a></li>
+                                        
+                                        </ul>
+                                        
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=32"   >갤러리</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=33"   >자료실</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                 
+                            </div>
+                        </li>
+                        
+                        <li id="topMenu7" class="menu_list "> <a href="../xboard/board.php?tbnum=34"  id="navi7" class=" depth_link "    >취업/진로</a>
+                            <div id="topMenu7Sub"  class="depth_box"> 
+                                
+                                <ul>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=job_04"   >취업현황</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=34"   >취업/진로 자료실</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=35"   >채용정보</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=36"   >협약기업</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                 
+                            </div>
+                        </li>
+                        
+                        <li id="topMenu8" class="menu_list "> <a href="../xboard/board.php?tbnum=37"  id="navi8" class="on depth_link "    >정보공개 참여</a>
+                            <div id="topMenu8Sub"  class="depth_box"> 
+                                
+                                <ul>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=37"   >학교제규정</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=open_02_01"   >학교운영위원회</a>
+                                        
+                                        
+                                        <ul class="three_depth">
+                                        
+                                            <li><a href="../sub/page.php?page_code=open_02_01" class=" "   >- 학교운영위원회 소개</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../sub/page.php?page_code=open_02_02" class=" "   >- 학교운영위원회 규정</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=38" class=" "   >- 학교운영위원회 소식</a></li>
+                                        
+                                        </ul>
+                                        
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=39"   >행정공개</a>
+                                        
+                                        
+                                        <ul class="three_depth">
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=39" class=" "   >- 행정자료실</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=40" class=" "   >- 학교회계</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=41" class=" "   >- 학교발전기금</a></li>
+                                        
+                                        </ul>
+                                        
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=open_04_01"   >학교급식</a>
+                                        
+                                        
+                                        <ul class="three_depth">
+                                        
+                                            <li><a href="../sub/page.php?page_code=open_04_01" class=" "   >- 급식운영계획</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=42" class=" "   >- 오늘의 밥상</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=43" class=" "   >- 급식게시판</a></li>
+                                        
+                                        </ul>
+                                        
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=open_05_01"   >학교평가</a>
+                                        
+                                        
+                                        <ul class="three_depth">
+                                        
+                                            <li><a href="../sub/page.php?page_code=open_05_01" class=" "   >- 학교평가 운영안내</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=44" class=" "   >- 학교평가 자료실</a></li>
+                                        
+                                        </ul>
+                                        
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=45"   >정보보호</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=46"   >신고센터</a>
+                                        
+                                        
+                                        <ul class="three_depth">
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=46" class=" "   >- 클린신고센터</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=47" class=" "   >- 성적관련 민원센터</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=48" class=" "   >- 성희롱 성폭력 신고</a></li>
+                                        
+                                        </ul>
+                                        
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../sub/page.php?page_code=open_08_01"   >정보공개</a>
+                                        
+                                        
+                                        <ul class="three_depth">
+                                        
+                                            <li><a href="../sub/page.php?page_code=open_08_01" class=" "   >- 정보공개제도 안내</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../sub/page.php?page_code=open_08_02" class=" "   >- 비공개대상정보</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="https://www.open.go.kr/infOthbc/infOthbc/infOthbcFee.do" class=" "  target="_blank" >- 수수료기준</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="https://www.open.go.kr/infOthbc/infOthbc/infOthbcLaword.do" class=" "  target="_blank" >- 청구서식</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../sub/page.php?page_code=open_08_05" class=" "   >- 사전정보공표</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="../xboard/board.php?tbnum=49" class=" "   >- 정보목록</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="https://www.open.go.kr/othicInfo/infoList/infoList.do" class=" "  target="_blank" >- 정보목록(15년~)</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="https://www.open.go.kr/othicInfo/infoList/orginlInfoList.do" class=" "  target="_blank" >- 공개대상 정보의 원문공개</a></li>
+                                        
+                                        
+                                        
+                                            <li><a href="https://www.open.go.kr/" class=" "  target="_blank" >- 인터넷정보공개청구</a></li>
+                                        
+                                        </ul>
+                                        
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=59"   >산업 안전·보건 게시판</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                 
+                            </div>
+                        </li>
+                        
+                        <li id="topMenu9" class="menu_list "> <a href="../xboard/board.php?tbnum=50"  id="navi9" class=" depth_link "    >인트라넷</a>
+                            <div id="topMenu9Sub"  class="depth_box"> 
+                                
+                                <ul>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=50"   >교직원 공지사항</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=51"   >업무자료실</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="http://www.tbit.co.kr/help/help.php?tName=soma"  target="_blank" >기자재고장신고</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=54"   >교원연구회</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=55"   >휴대용저장매체반출입대장</a>
+                                        
+                                    </li>
+                                    
+                                    <li class="two_depth"><a class="depth_link2" href="../xboard/board.php?tbnum=57"   >교육과정 수행결과</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                 
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+         </div>
+		<!-- 메뉴 -->
+		</div>
+        <div id="scroll-progress-bar"></div>
+	</div>
+<!-- 헤더 -->
+	<div id="sub_visual" class="s_open">더불어 살아가는 사람다운 미래 인재 광주소프트웨어마이스터고등학교</div>
+    
+    
+    
+    
+	<div id="container">
+      <div id="guide_wrap">
+        	<ul class="guide">
+					<li class="first"><a href="../main/main.php">홈</a></li>
+					<li>정보공개 참여 &gt; 학교급식</li>
+					<li class="this">오늘의 밥상</li>
+				</ul>
+				<ul class="page_config">
+					<li class="print"><a href="#none;" target="_blank" onclick="printContent('', 'tbnum=42'); return false;" title="새창열림" ><span></span></a></li>
+					
+				</ul>
+        
+        
+        </div>
+        
+    	 
+		<div id="left">
+			<h2>정보공개 참여</h2>
+			<ul id="leftMenu">
+				
+				<li id="leftMenu_open_01"><a href="../xboard/board.php?tbnum=37"    class="">학교제규정</a>
+					
+				</li>
+				
+				<li id="leftMenu_open_02"><a href="../sub/page.php?page_code=open_02_01"    class="">학교운영위원회</a>
+					
+					<div id="leftMenu_ul2" class="">
+						<ul>
+							
+							<li class=""><a href="../sub/page.php?page_code=open_02_01"   >학교운영위원회 소개</a></li>
+							
+							<li class=""><a href="../sub/page.php?page_code=open_02_02"   >학교운영위원회 규정</a></li>
+							
+							<li class=""><a href="../xboard/board.php?tbnum=38"   >학교운영위원회 소식</a></li>
+							
+						</ul>
+					</div>
+					
+				</li>
+				
+				<li id="leftMenu_open_03"><a href="../xboard/board.php?tbnum=39"    class="">행정공개</a>
+					
+					<div id="leftMenu_ul3" class="">
+						<ul>
+							
+							<li class=""><a href="../xboard/board.php?tbnum=39"   >행정자료실</a></li>
+							
+							<li class=""><a href="../xboard/board.php?tbnum=40"   >학교회계</a></li>
+							
+							<li class=""><a href="../xboard/board.php?tbnum=41"   >학교발전기금</a></li>
+							
+						</ul>
+					</div>
+					
+				</li>
+				
+				<li id="leftMenu_open_04"><a href="../sub/page.php?page_code=open_04_01"    class="on">학교급식</a>
+					
+					<div id="leftMenu_ul4" class="on">
+						<ul>
+							
+							<li class=""><a href="../sub/page.php?page_code=open_04_01"   >급식운영계획</a></li>
+							
+							<li class="on"><a href="../xboard/board.php?tbnum=42"   >오늘의 밥상</a></li>
+							
+							<li class=""><a href="../xboard/board.php?tbnum=43"   >급식게시판</a></li>
+							
+						</ul>
+					</div>
+					
+				</li>
+				
+				<li id="leftMenu_open_05"><a href="../sub/page.php?page_code=open_05_01"    class="">학교평가</a>
+					
+					<div id="leftMenu_ul5" class="">
+						<ul>
+							
+							<li class=""><a href="../sub/page.php?page_code=open_05_01"   >학교평가 운영안내</a></li>
+							
+							<li class=""><a href="../xboard/board.php?tbnum=44"   >학교평가 자료실</a></li>
+							
+						</ul>
+					</div>
+					
+				</li>
+				
+				<li id="leftMenu_open_06"><a href="../xboard/board.php?tbnum=45"    class="">정보보호</a>
+					
+				</li>
+				
+				<li id="leftMenu_open_07"><a href="../xboard/board.php?tbnum=46"    class="">신고센터</a>
+					
+					<div id="leftMenu_ul7" class="">
+						<ul>
+							
+							<li class=""><a href="../xboard/board.php?tbnum=46"   >클린신고센터</a></li>
+							
+							<li class=""><a href="../xboard/board.php?tbnum=47"   >성적관련 민원센터</a></li>
+							
+							<li class=""><a href="../xboard/board.php?tbnum=48"   >성희롱 성폭력 신고</a></li>
+							
+						</ul>
+					</div>
+					
+				</li>
+				
+				<li id="leftMenu_open_08"><a href="../sub/page.php?page_code=open_08_01"    class="">정보공개</a>
+					
+					<div id="leftMenu_ul8" class="">
+						<ul>
+							
+							<li class=""><a href="../sub/page.php?page_code=open_08_01"   >정보공개제도 안내</a></li>
+							
+							<li class=""><a href="../sub/page.php?page_code=open_08_02"   >비공개대상정보</a></li>
+							
+							<li class=""><a href="https://www.open.go.kr/infOthbc/infOthbc/infOthbcFee.do"  target="_blank" >수수료기준</a></li>
+							
+							<li class=""><a href="https://www.open.go.kr/infOthbc/infOthbc/infOthbcLaword.do"  target="_blank" >청구서식</a></li>
+							
+							<li class=""><a href="../sub/page.php?page_code=open_08_05"   >사전정보공표</a></li>
+							
+							<li class=""><a href="../xboard/board.php?tbnum=49"   >정보목록</a></li>
+							
+							<li class=""><a href="https://www.open.go.kr/othicInfo/infoList/infoList.do"  target="_blank" >정보목록(15년~)</a></li>
+							
+							<li class=""><a href="https://www.open.go.kr/othicInfo/infoList/orginlInfoList.do"  target="_blank" >공개대상 정보의 원문공개</a></li>
+							
+							<li class=""><a href="https://www.open.go.kr/"  target="_blank" >인터넷정보공개청구</a></li>
+							
+						</ul>
+					</div>
+					
+				</li>
+				
+				<li id="leftMenu_open_09"><a href="../xboard/board.php?tbnum=59"    class="">산업 안전·보건 게시판</a>
+					
+				</li>
+				
+			</ul>
+            
+		</div>
+       
+        
+        
+        
+		<div id="contentGroup">
+      
+        
+			<div id="guideGroup">
+            
+            
+				<h3>오늘의 밥상</h3>
+				
+			</div>
+			<div id="content">
+<!-- 식단 알레르기 -->
+
+
+<!-- 식단표 별도 처리-->
+
+<!-- 식단표 별도 처리-->
+
+<Script>
+	j$(document).ready(function(){
+	//텝메뉴{
+		j$('dl.food_tep').each(function(){
+			var btn_dt = j$(this).children('dt')
+			var btn_dd = j$(this).children().siblings('dd')
+			j$(btn_dt).click(function(){
+				var box = j$(this).next('dd');
+				j$(this).addClass('on');
+				j$(btn_dt).not(this).removeClass('on');
+				j$(btn_dd).not(box).slideUp('6500');
+				j$(box).slideDown('6500');
+			});
+		});
+	//}
+	});
+	//{틀팁
+		j$(function() {
+			j$(document).tooltip({
+				track: true
+			});
+		});
+	//}
+
+	function imgOpen(imgObj,textObj){
+
+		// 이전 다음 사진은??
+
+		// 레이어 만드기
+		var ImgThumb = "<img src=\""+imgObj+"\" alt=\"\" id=\"tmpImg\"  /><div id=\"tmpImgText\">"+textObj+"<\/div>";//
+		j$(".newFoodPop").html(ImgThumb);
+		//j$(".newFoodPopText").html(textObj);
+		j$("#newFoodLayer").css("display","block");
+
+
+		if(0){
+			j$("#tmpImgText").css("display","none");
+		}
+		
+		if(j$("#newFoodLayer").css("display") =="block"){
+			j$(".newFoodPop img").load(function () { //이미지가 로딩이 완료 된 후 
+				j$("#tmpImgText").width(j$("#tmpImg").width());
+				if(j$(window).height() <= j$("#newFoodLayer .newFoodPop").height()){
+					j$("#tmpImg").height(j$(window).height()-300);
+					j$("#tmpImgText").width(j$("#tmpImg").width());
+					var xPosition = (j$(window).width()-j$("#newFoodLayer .newFoodPop").width())/2;
+					var yPosition = (j$(window).height()-j$("#newFoodLayer .newFoodPop").height())/2;
+				}else if(j$(window).width() <= j$("#newFoodLayer .newFoodPop").width()){
+					j$("#tmpImg").width(j$(window).width()-100);
+					j$("#tmpImgText").width(j$("#tmpImg").width());
+					var xPosition = (j$(window).width()-j$("#newFoodLayer .newFoodPop").width())/2;
+					var yPosition = (j$(window).height()-j$("#newFoodLayer .newFoodPop").height())/2;
+				}else{
+					j$("#tmpImgText").width(j$("#tmpImg").width());
+					var xPosition = (j$(window).width()-j$("#newFoodLayer .newFoodPop").width())/2;
+					var yPosition = (j$(window).height()-j$("#newFoodLayer .newFoodPop").height())/2;
+				}
+
+				j$("#newFoodLayer .newFoodPop").css({left:xPosition+"px",top:yPosition+"px"});
+				j$("body").css("overflow","hidden");
+			}); 
+		}
+		// 레이어 만드기
+	}
+	function layerClose(){
+		j$("#newFoodLayer").css("display","none");
+		j$("body").css("overflow-y","auto");
+	}
+</script>
+<div id="newFoodLayer" style="z-index:300; display:none;" onclick="layerClose();">
+	<div class="newFoodPop">
+	</div>
+</div>
+<div id="allergy_info">
+	<div class="box">
+		<p class="title">알레르기 유발식품 식단번호 </p>
+		<p class="info">①난류, ②우유, ③메밀, ④땅콩, ⑤대두, ⑥밀, ⑦고등어, ⑧게, ⑨새우, ⑩돼지고기, ⑪복숭아, ⑫토마토,  ⑬아황산염,  ⑭호두,  ⑮닭고기,  ⑯쇠고기,  ⑰오징어,  ⑱조개류(굴,전복,홍합), ⑲잣</p>
+		<p class="warning"><span>해당 식품에 특정증상을 보이는 학생</span> 또는 <span>기타 표시되지 않은 식품에도 알레르기 증상을 보이는 학생</span>들은 급식시 각별히 주의를 부탁드립니다.</p>
+	</div>
+</div>
+
+<div id="xb_list">
+<div id="new_food" class="colChk2 ">
+	<form id="xb_fm_list" name="xb_fm_list" method="post" action="board.php">			
+	<input type="hidden" name="mode" value="list" />	
+	<input type="hidden" name="XQUEDATA" value="" />
+	<input type="hidden" name="CSRFToken" value="09D3B3231A0E91EF9B74EE2802DF4397AE5A3612918E9F29ED2F3D94E2E6C236" />	
+	<input type="hidden" name="tbnum" value="42" />
+	<input type="hidden" name="page" value="1" />	
+	<div class="search">
+		<p class="year">
+			<span class="box"><a href="board.php?mode=list&amp;tbnum=42&amp;sCat=0&amp;page=1&amp;keyset=&amp;searchword=&amp;sYear=2023&amp;sMonth=05" title="이전달"><i class="fa fa-angle-left"></i></a>2023. <span class="sMonth">06</span><a href="board.php?mode=list&amp;tbnum=42&amp;sCat=0&amp;page=1&amp;keyset=&amp;searchword=&amp;sYear=2023&amp;sMonth=07" title="다음달"><i class="fa fa-angle-right"></i></a></span>
+		</p>
+		<ul class="left">
+			<li>
+				<select name="sYear" class="xb_select">
+					<option value="2003">2003</option>
+<option value="2004">2004</option>
+<option value="2005">2005</option>
+<option value="2006">2006</option>
+<option value="2007">2007</option>
+<option value="2008">2008</option>
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+<option value="2022">2022</option>
+<option value="2023" selected="selected">2023</option>
+<option value="2024">2024</option>
+
+				</select>
+			</li>
+			<li>
+				<select name="sMonth" class="xb_select">
+					<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06" selected="selected">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+
+				</select>
+			</li>
+			<li><input type="submit" value="검색" class="btn"  /></li>
+		</ul>
+		<ul class="right">
+			<li class="prev"><a href="board.php?mode=list&amp;tbnum=42&amp;sCat=0&amp;page=1&amp;keyset=&amp;searchword=&amp;sYear=2023&amp;sMonth=05" title="이전달"><span>이전달</span><i class="fa fa-angle-left"></i></a></li>
+			<li class="next"><a href="board.php?mode=list&amp;tbnum=42&amp;sCat=0&amp;page=1&amp;keyset=&amp;searchword=&amp;sYear=2023&amp;sMonth=07" title="다음달"><span>다음달</span><i class="fa fa-angle-right"></i></a></li>
+		</ul>
+	</div>
+
+	<div class="calendar">
+		<ul class="week"> 
+			<li class="sun sunNone sundayNone">일요일</li>
+			<li>월요일</li>
+			<li>화요일</li>
+			<li>수요일</li>
+			<li>목요일</li>
+			<li>금요일</li>
+			<li class="sat satNone saturdayNone">토요일</li>
+		</ul>
+
+		<ul class="day">
+
+			<li class="sunday mobile_none_not sunNone sundayNone">&nbsp;</li>
+
+			<li class="mobile_none_not">&nbsp;</li>
+
+			<li class="mobile_none_not">&nbsp;</li>
+
+			<li class="mobile_none_not">&nbsp;</li>
+
+
+	
+			<li class="mobile_none_food">
+				<div class="food_list_box">
+					<div class="day_num">1<span>(목)</span></div>
+					<dl class="slider_food_list slider_food1 food_tep">
+                        
+						
+				</dl>	
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="mobile_none_food">
+				<div class="food_list_box">
+					<div class="day_num">2<span>(금)</span></div>
+					<dl class="slider_food_list slider_food2 food_tep">
+                        
+						
+				</dl>	
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="sat mobile_none_food satNone saturdayNone">
+				<div class="food_list_box">
+					<div class="day_num">3<span>(토)</span></div>
+					<dl class="slider_food_list slider_food3 food_tep">
+                        
+						
+				</dl>	
+					
+					
+				</div>
+			</li>
+	
+	
+		</ul>
+		
+		<ul class="day">
+		
+	
+	
+			<li class="sun mobile_none_food sunNone sundayNone">
+				<div class="food_list_box">
+					<div class="day_num">4<span>(일)</span></div>
+					<dl class="slider_food_list slider_food4 food_tep">
+                        
+						
+				</dl>	
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="mobile_none_food">
+				<div class="food_list_box">
+					<div class="day_num">5<span>(월)</span></div>
+					<dl class="slider_food_list slider_food5 food_tep">
+                        
+						
+				</dl>	
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="mobile_none_food">
+				<div class="food_list_box">
+					<div class="day_num">6<span>(화)</span></div>
+					<dl class="slider_food_list slider_food6 food_tep">
+                        
+						
+				</dl>	
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">7<span>(수)</span></div>
+					<dl class="slider_food_list slider_food7 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230608_084908_093784400_1_middle_thumb.png','백미밥시래기된장국*(5.6.9.13.)닭다리훈제/소스(1.5.10.13.)*미니살구잼파이(1.2.5.6.13.)배추김치(9.)콘푸로스트/오레오(쿠)&백색우유.(2.5.6.13.)'); return false;"><img src="./../data_files/board/42/2023/20230608_084908_093784400_1_thumb.png" alt="아침식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">백미밥<br />
+시래기된장국*(5.6.9.13.)<br />
+닭다리훈제/소스(1.5.10.13.)<br />
+*미니살구잼파이(1.2.5.6.13.)<br />
+배추김치(9.)<br />
+콘푸로스트/오레오(쿠)&백색우유.(2.5.6.13.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230608_084908_093919200_2_middle_thumb.png','실파달걀국*(1.5.6.9.13.)자장면(1.2.5.6.10.13.16.18.)꼬들꼬들단무지무침고구마대나물(5.6.)수제탕수육/탕수만두..(1.5.6.10.12.16.18.)파김치(9.)배추김치(자율)(9.13.)골드파인애플*'); return false;"><img src="./../data_files/board/42/2023/20230608_084908_093919200_2_thumb.png" alt="점심식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">실파달걀국*(1.5.6.9.13.)<br />
+자장면(1.2.5.6.10.13.16.18.)<br />
+꼬들꼬들단무지무침<br />
+고구마대나물(5.6.)<br />
+수제탕수육/탕수만두..(1.5.6.10.12.16.18.)<br />
+파김치(9.)<br />
+배추김치(자율)(9.13.)<br />
+골드파인애플*</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230608_084908_093921600_3_middle_thumb.png','백미밥*바지락살수제비국(5.6.9.13.)브로콜리꽃맛살무침(1.5.6.13.16.18.)제육채소볶음&양배추쌈*(5.6.8.10.13.18.)깍두기*(9.)요구르트(65ml)(2.)크림떡(5.6.13.)'); return false;"><img src="./../data_files/board/42/2023/20230608_084908_093921600_3_thumb.png" alt="저녁식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">백미밥*<br />
+바지락살수제비국(5.6.9.13.)<br />
+브로콜리꽃맛살무침<br />
+(1.5.6.13.16.18.)<br />
+제육채소볶음&양배추쌈*(5.6.8.10.13.18.)<br />
+깍두기*(9.)<br />
+요구르트(65ml)(2.)<br />
+크림떡(5.6.13.)</span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">8<span>(목)</span></div>
+					<dl class="slider_food_list slider_food8 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230608_085025_047255500_1_middle_thumb.png','*쌀밥어묵뭇국(1.5.6.9.13.16.18.)미트볼데리야끼조림(1.2.5.6.10.12.13.15.16.18.)새우살애호박나물(9.13.)배추김치(9.)찐달걀(1.)제주캐플음료군고구마*'); return false;"><img src="./../data_files/board/42/2023/20230608_085025_047255500_1_thumb.png" alt="아침식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">*쌀밥<br />
+어묵뭇국(1.5.6.9.13.16.18.)<br />
+미트볼데리야끼조림<br />
+(1.2.5.6.10.12.13.15.16.18.)<br />
+새우살애호박나물(9.13.)<br />
+배추김치(9.)<br />
+찐달걀(1.)<br />
+제주캐플음료<br />
+군고구마*</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230608_125730_084919500_2_middle_thumb.png','기장밥...소고기두부무국(5.6.12.16.)춘천닭갈비*(1.5.6.12.13.15.18.)취나물무침*(5.6.13.)고추잡채납작만두/(5.6.10.)깍두기*(9.)사과,배'); return false;"><img src="./../data_files/board/42/2023/20230608_125730_084919500_2_thumb.png" alt="점심식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">기장밥...<br />
+소고기두부무국(5.6.12.16.)<br />
+춘천닭갈비*(1.5.6.12.13.15.18.)<br />
+취나물무침*(5.6.13.)<br />
+고추잡채납작만두/(5.6.10.)<br />
+깍두기*(9.)<br />
+사과,배</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230608_175927_061791000_3_middle_thumb.png','참치마요주먹밥(1.5.13.)김치라면*(1.2.5.6.9.13.15.16.18.)참나물무침*국물떡볶이/김말이튀김(1.5.6.12.13.16.18.)배추김치(9.)아이스설레임*(1.2.5.)'); return false;"><img src="./../data_files/board/42/2023/20230608_175927_061791000_3_thumb.png" alt="저녁식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">참치마요주먹밥(1.5.13.)<br />
+김치라면*<br />
+(1.2.5.6.9.13.15.16.18.)<br />
+참나물무침*<br />
+국물떡볶이/김말이튀김<br />
+(1.5.6.12.13.16.18.)<br />
+배추김치(9.)<br />
+아이스설레임*(1.2.5.)</span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">9<span>(금)</span></div>
+					<dl class="slider_food_list slider_food9 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230609_114755_040159100_1_middle_thumb.png','백미밥*황태포두부무국*(5.6.13.)꽈리메추리알장조림(1.5.6.13.18.)돼지갈비떡매운조림*(5.6.10.18.)배추김치(9.)통밀쿠키(1.2.4.5.6.13.)베리호상요구르트.(2.)'); return false;"><img src="./../data_files/board/42/2023/20230609_114755_040159100_1_thumb.png" alt="아침식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">백미밥*<br />
+황태포두부무국*(5.6.13.)<br />
+꽈리메추리알장조림<br />
+(1.5.6.13.18.)<br />
+돼지갈비떡매운조림*(5.6.10.18.)<br />
+배추김치(9.)<br />
+통밀쿠키(1.2.4.5.6.13.)<br />
+베리호상요구르트.(2.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230609_114755_040277400_2_middle_thumb.png','돈민지달걀볶음밥*(1.5.6.13.18.)참치김치찌개(5.9.13.18.)카레감자채볶음(2.5.6.13.16.)새우튀김/양파소스(1.2.5.6.9.13.)배추김치(9.)자두주스.(2.)'); return false;"><img src="./../data_files/board/42/2023/20230609_114755_040277400_2_thumb.png" alt="점심식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">돈민지달걀볶음밥*(1.5.6.13.18.)<br />
+참치김치찌개(5.9.13.18.)<br />
+카레감자채볶음(2.5.6.13.16.)<br />
+새우튀김/양파소스<br />
+(1.2.5.6.9.13.)<br />
+배추김치(9.)<br />
+자두주스.(2.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content"></span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="sat mobile_none_food satNone saturdayNone">
+				<div class="food_list_box">
+					<div class="day_num">10<span>(토)</span></div>
+					<dl class="slider_food_list slider_food10 food_tep">
+                        
+						
+				</dl>	
+					
+					
+				</div>
+			</li>
+	
+	
+		</ul>
+		
+		<ul class="day">
+		
+	
+	
+			<li class="sun mobile_none_food sunNone sundayNone">
+				<div class="food_list_box">
+					<div class="day_num">11<span>(일)</span></div>
+					<dl class="slider_food_list slider_food11 food_tep">
+                        
+						
+				</dl>	
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">12<span>(월)</span></div>
+					<dl class="slider_food_list slider_food12 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230613_075235_088476700_1_middle_thumb.png','백미밥(자율)..한주먹밥(1.2.5.6.10.13.)근대된장국*(5.6.9.13.)오리불고기..(5.6.13.)배추김치(9.)메이플피칸파이*(1.2.5.6.13.14.)사과우유주스.(5.13.)'); return false;"><img src="./../data_files/board/42/2023/20230613_075235_088476700_1_thumb.png" alt="아침식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">백미밥(자율)..<br />
+한주먹밥<br />
+(1.2.5.6.10.13.)<br />
+근대된장국*(5.6.9.13.)<br />
+오리불고기..(5.6.13.)<br />
+배추김치(9.)<br />
+메이플피칸파이*(1.2.5.6.13.14.)<br />
+사과우유주스.(5.13.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230613_075235_088480400_2_middle_thumb.png','콩나물밥/부추장(5.6.13.16.18.)유부김치국*(5.6.9.10.13.18.)오이고추&쌈장*(5.6.13.)콘치즈오븐구이*(1.2.5.13.)돈육불고기상추쌈/(5.6.10.)배추김치(9.13.)찹쌀유과*(5.)'); return false;"><img src="./../data_files/board/42/2023/20230613_075235_088480400_2_thumb.png" alt="점심식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">콩나물밥/부추장(5.6.13.16.18.)<br />
+유부김치국*(5.6.9.10.13.18.)<br />
+오이고추&쌈장*(5.6.13.)<br />
+콘치즈오븐구이*(1.2.5.13.)<br />
+돈육불고기상추쌈/(5.6.10.)<br />
+배추김치(9.13.)<br />
+찹쌀유과*(5.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230613_075235_088481400_3_middle_thumb.png','백미밥(자율)..잔치국수(주식)*(1.5.6.9.13.16.)오이부추무침*(13.)배추김치(9.)수제후랑크버거*(1.2.5.6.10.12.13.15.16.18.)비타민쥬스(13.)'); return false;"><img src="./../data_files/board/42/2023/20230613_075235_088481400_3_thumb.png" alt="저녁식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">백미밥(자율)..<br />
+잔치국수(주식)*(1.5.6.9.13.16.)<br />
+오이부추무침*(13.)<br />
+배추김치(9.)<br />
+수제후랑크버거*(1.2.5.6.10.12.13.15.16.18.)<br />
+비타민쥬스(13.)</span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">13<span>(화)</span></div>
+					<dl class="slider_food_list slider_food13 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230613_075254_072007800_1_middle_thumb.png','백미밥..들깨시락국*(5.6.9.13.18.)목살구이*(2.5.6.10.13.15.)잔멸치볶음*(5.)배추김치(9.)*김구이(13.)사과,배'); return false;"><img src="./../data_files/board/42/2023/20230613_075254_072007800_1_thumb.png" alt="아침식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">백미밥..<br />
+들깨시락국<br />
+*(5.6.9.13.18.)<br />
+목살구이*(2.5.6.10.13.15.)<br />
+잔멸치볶음*(5.)<br />
+배추김치(9.)<br />
+*김구이(13.)<br />
+사과,배</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230613_115004_035172700_2_middle_thumb.png','오므라이스*(1.2.5.6.10.12.13.15.16.18.)치커리유자청샐러드(1.2.6.13.)오징어야채떡볶음(5.6.13.17.18.)돈까스/피자소스(1.5.6.10.12.13.15.16.18.)배추김치(9.)오므라이스소스(1.2.5.6.12.13.16.)매실음료*'); return false;"><img src="./../data_files/board/42/2023/20230613_115004_035172700_2_thumb.png" alt="점심식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">오므라이스*<br />
+(1.2.5.6.10.12.13.15.16.18.)<br />
+치커리유자청샐러드(1.2.6.13.)<br />
+오징어야채떡볶음(5.6.13.17.18.)<br />
+돈까스/피자소스<br />
+(1.5.6.10.12.13.15.16.18.)<br />
+배추김치(9.)<br />
+오므라이스소스<br />
+(1.2.5.6.12.13.16.)<br />
+매실음료*</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230613_174914_007906700_3_middle_thumb.png','현미찹쌀밥새알만둣국(1.5.6.9.10.13.16.18.)돼지고기묵은지찜(5.9.10.13.18.)우유계란찜...(1.9.13.)시금치나물(5.6.13.)깍두기(9.13.)아이스망고바'); return false;"><img src="./../data_files/board/42/2023/20230613_174914_007906700_3_thumb.png" alt="저녁식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">현미찹쌀밥<br />
+새알만둣국<br />
+(1.5.6.9.10.13.16.18.)<br />
+돼지고기묵은지찜(5.9.10.13.18.)<br />
+우유계란찜...(1.9.13.)<br />
+시금치나물(5.6.13.)<br />
+깍두기(9.13.)<br />
+아이스망고바</span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">14<span>(수)</span></div>
+					<dl class="slider_food_list slider_food14 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230614_181245_068481300_1_middle_thumb.png','백미밥*쇠고기미역국*(5.6.9.13.18.)닭윙칠리소스조림*(2.5.6.12.13.)콩나물무침(5.)배추김치(9.)데니쉬빵&딸기쨈*(1.2.5.6.13.)골라먹는우유(2.)'); return false;"><img src="./../data_files/board/42/2023/20230614_181245_068481300_1_thumb.png" alt="아침식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">백미밥*<br />
+쇠고기미역국<br />
+*(5.6.9.13.18.)<br />
+닭윙칠리소스조림*(2.5.6.12.13.)<br />
+콩나물무침(5.)<br />
+배추김치(9.)<br />
+데니쉬빵&딸기쨈*(1.2.5.6.13.)<br />
+골라먹는우유(2.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230614_181245_068600900_2_middle_thumb.png','현미찹쌀밥모듬어묵국(1.5.6.9.13.16.18.)실곤약야채무침(5.6.13.)깐풍기/(1.2.5.6.11.12.)순살삼치데리야끼구이*(2.5.6.)배추김치(9.)파인애플에이드(13.)'); return false;"><img src="./../data_files/board/42/2023/20230614_181245_068600900_2_thumb.png" alt="점심식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">현미찹쌀밥<br />
+모듬어묵국(1.5.6.9.13.16.18.)<br />
+실곤약야채무침(5.6.13.)<br />
+깐풍기/(1.2.5.6.11.12.)<br />
+순살삼치데리야끼구이*(2.5.6.)<br />
+배추김치(9.)<br />
+파인애플에이드(13.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230614_181245_068658400_3_middle_thumb.png','검정쌀밥*오리탕(5.6.13.18.)비빔국수(소면)(5.6.13.)크래미숙주나물(1.5.6.8.13.)야채계란말이...(1.2.5.12.)깍두기*(9.)아이스슈..(1.2.5.6.)'); return false;"><img src="./../data_files/board/42/2023/20230614_181245_068658400_3_thumb.png" alt="저녁식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">검정쌀밥*<br />
+오리탕(5.6.13.18.)<br />
+비빔국수(소면)(5.6.13.)<br />
+크래미숙주나물(1.5.6.8.13.)<br />
+야채계란말이...(1.2.5.12.)<br />
+깍두기*(9.)<br />
+아이스슈..(1.2.5.6.)</span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">15<span>(목)</span></div>
+					<dl class="slider_food_list slider_food15 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230615_130155_096451700_1_middle_thumb.png','백미밥..김치콩나물국...(5.9.12.13.)새송이브로컬리볶음*(5.6.10.13.18.)계란후라이함박(1.2.5.6.10.12.13.15.16.)깍두기*(9.)우리밀촉촉마들렌..(1.2.5.6.13.)엔요요구르트*(2.)'); return false;"><img src="./../data_files/board/42/2023/20230615_130155_096451700_1_thumb.png" alt="아침식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">백미밥..<br />
+김치콩나물<br />
+국...(5.9.12.13.)<br />
+새송이브로컬리볶음*<br />
+(5.6.10.13.18.)<br />
+계란후라이함박<br />
+(1.2.5.6.10.12.13.15.16.)<br />
+깍두기*(9.)<br />
+우리밀촉촉마들렌..(1.2.5.6.13.)<br />
+엔요요구르트*(2.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230615_130155_096591400_2_middle_thumb.png','*찰흑미밥추어탕*(5.6.7.9.13.18.)솎음열무나물도토리묵오이무침*(5.6.13.)돈육찹스테이크(5.6.10.12.13.16.18.)깍두기*(9.)마카롱(1.2.5.6.13.16.)'); return false;"><img src="./../data_files/board/42/2023/20230615_130155_096591400_2_thumb.png" alt="점심식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">*찰흑미밥<br />
+추어탕*(5.6.7.9.13.18.)<br />
+솎음열무나물<br />
+도토리묵오이무침*(5.6.13.)<br />
+돈육찹스테이크<br />
+(5.6.10.12.13.16.18.)<br />
+깍두기*(9.)<br />
+마카롱(1.2.5.6.13.16.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230616_055447_052622200_3_middle_thumb.png','백미밥*부대찌개*(5.6.9.13.)양배추샐러드&사우전드아일랜드*(1.2.5.6.13.18.)치킨까스/소스(1.2.5.6.12.13.15.16.18.)알감자버터구이(2.5.13.)깍두기*(9.)스위트청포도음료.(13.)'); return false;"><img src="./../data_files/board/42/2023/20230616_055447_052622200_3_thumb.png" alt="저녁식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">백미밥*<br />
+부대찌개*(5.6.9.13.)<br />
+양배추샐러드&사우전드아일랜드*(1.2.5.6.13.18.)<br />
+치킨까스/소스(1.2.5.6.12.13.15.16.18.)<br />
+알감자버터구이(2.5.13.)<br />
+깍두기*(9.)<br />
+스위트청포도음료.(13.)</span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">16<span>(금)</span></div>
+					<dl class="slider_food_list slider_food16 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230616_120010_058588600_1_middle_thumb.png','백미밥(자율)*메추리알고추장조림(1.5.6.12.13.18.)배추김치(9.)새우살크리미죽..(1.5.6.8.9.13.)햄치즈샌드위치*(1.2.5.6.10.13.)방울토마토*(12.)과즙음료(13.)'); return false;"><img src="./../data_files/board/42/2023/20230616_120010_058588600_1_thumb.png" alt="아침식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">백미밥(자율)*<br />
+메추리알고추장조림<br />
+(1.5.6.12.13.18.)<br />
+배추김치(9.)<br />
+새우살크리미죽..(1.5.6.8.9.13.)<br />
+햄치즈샌드위치*(1.2.5.6.10.13.)<br />
+방울토마토*(12.)<br />
+과즙음료(13.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230616_120010_058719500_2_middle_thumb.png','*현미찹쌀밥초계국수 (1.5.6.12.13.15.16.)양배추찜&간장매콤소스*(5.6.13.)갑오징어초무침돈육주물럭/(5.6.10.)배추김치(9.)수박*'); return false;"><img src="./../data_files/board/42/2023/20230616_120010_058719500_2_thumb.png" alt="점심식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">*현미찹쌀밥<br />
+초계국수&nbsp;(1.5.6.12.13.15.16.)<br />
+양배추찜&간장매콤소스*<br />
+(5.6.13.)<br />
+갑오징어초무침<br />
+돈육주물럭/(5.6.10.)<br />
+배추김치(9.)<br />
+수박*</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content"></span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="sat mobile_none_food satNone saturdayNone">
+				<div class="food_list_box">
+					<div class="day_num">17<span>(토)</span></div>
+					<dl class="slider_food_list slider_food17 food_tep">
+                        
+						
+				</dl>	
+					
+					
+				</div>
+			</li>
+	
+	
+		</ul>
+		
+		<ul class="day">
+		
+	
+	
+			<li class="sun mobile_none_food sunNone sundayNone">
+				<div class="food_list_box">
+					<div class="day_num">18<span>(일)</span></div>
+					<dl class="slider_food_list slider_food18 food_tep">
+                        
+						
+				</dl>	
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">19<span>(월)</span></div>
+					<dl class="slider_food_list slider_food19 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230619_120435_003696600_1_middle_thumb.png','백미밥..새우살미역국(5.6.9.13.18.)오리훈제/무쌈(1.)*검은깨두부구이/볶음김치(5.9.13.)*찹쌀콩부각멸치볶음(5.13.)깍두기(9.13.)비피더스..(2.)'); return false;"><img src="./../data_files/board/42/2023/20230619_120435_003696600_1_thumb.png" alt="아침식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">백미밥..<br />
+새우살미역국(5.6.9.13.18.)<br />
+오리훈제/무쌈(1.)<br />
+*검은깨두부구이/볶음김치<br />
+(5.9.13.)<br />
+*찹쌀콩부각멸치볶음(5.13.)<br />
+깍두기(9.13.)<br />
+비피더스..(2.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230619_120435_003868400_2_middle_thumb.png','차수수밥/바지락살순두부찌개/(5.6.)묵은지등갈비찜*(5.6.9.10.13.18.)깻잎순나물(5.6.13.)어묵잡채*(1.5.6.8.10.13.16.18.)갓김치*배추김치(자율)(9.13.)머스크멜론*'); return false;"><img src="./../data_files/board/42/2023/20230619_120435_003868400_2_thumb.png" alt="점심식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">차수수밥/<br />
+바지락살순두부찌개/(5.6.)<br />
+묵은지등갈비찜*<br />
+(5.6.9.10.13.18.)<br />
+깻잎순나물(5.6.13.)<br />
+어묵잡채*(1.5.6.8.10.13.16.18.)<br />
+갓김치*<br />
+배추김치(자율)(9.13.)<br />
+머스크멜론*</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230620_075848_047335400_3_middle_thumb.png','*찰흑미밥크림짬뽕국(1.2.5.6.9.13.16.17.18.)오이사과무침(5.6.13.)마카로니콘샐러드*(1.5.6.13.)꿔바로우/소스(완)(1.5.6.10.11.12.13.)배추김치(9.)딸기샤베트(2.)'); return false;"><img src="./../data_files/board/42/2023/20230620_075848_047335400_3_thumb.png" alt="저녁식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">*찰흑미밥<br />
+크림짬뽕국<br />
+(1.2.5.6.9.13.16.17.18.)<br />
+오이사과무침(5.6.13.)<br />
+마카로니콘샐러드*(1.5.6.13.)<br />
+꿔바로우/소스(완)<br />
+(1.5.6.10.11.12.13.)<br />
+배추김치(9.)<br />
+딸기샤베트(2.)</span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">20<span>(화)</span></div>
+					<dl class="slider_food_list slider_food20 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230620_075906_044482300_1_middle_thumb.png','백미밥(자율)..제육볶음(5.6.10.13.)배추김치(9.)누룽지*길거리토스트*(1.2.5.6.10.12.13.)약과(1.2.5.6.)콘푸로스트/초코첵스&백색우유.(2.5.6.13.)'); return false;"><img src="./../data_files/board/42/2023/20230620_075906_044482300_1_thumb.png" alt="아침식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">백미밥(자율)..<br />
+제육볶음(5.6.10.13.)<br />
+배추김치(9.)<br />
+누룽지*<br />
+길거리토스트*<br />
+(1.2.5.6.10.12.13.)<br />
+약과(1.2.5.6.)<br />
+콘푸로스트/초코첵스&백색우유.<br />
+(2.5.6.13.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230620_114719_010165200_2_middle_thumb.png','15곡잡곡밥(5.)감자호박된장국*(5.6.9.13.)왕새우무조림*(5.6.7.9.13.18.)돈육모듬구이.. (2.5.6.10.13.15.16.)배추김치(9.)요구르트(65ml)(2.)다시마,야채쌈/우렁쌈장*(5.6.)'); return false;"><img src="./../data_files/board/42/2023/20230620_114719_010165200_2_thumb.png" alt="점심식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">15곡잡곡밥(5.)<br />
+감자호박된장국*(5.6.9.13.)<br />
+왕새우무조림*(5.6.7.9.13.18.)<br />
+돈육모듬구이..&nbsp;(2.5.6.10.13.15.16.)<br />
+배추김치(9.)<br />
+요구르트(65ml)(2.)<br />
+다시마,야채쌈/우렁쌈장*(5.6.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230621_125908_084499000_3_middle_thumb.png','*찰흑미밥참치김치찌개(5.6.9.12.13.)해물볶음우동*(5.6.9.10.12.13.17.18.)닭정육떡치즈오븐구이*(1.2.5.6.12.13.15.18.)깍두기*(9.)망고푸딩*(1.5.13.)'); return false;"><img src="./../data_files/board/42/2023/20230621_125908_084499000_3_thumb.png" alt="저녁식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">*찰흑미밥<br />
+참치김치찌개<br />
+(5.6.9.12.13.)<br />
+해물볶음우동*<br />
+(5.6.9.10.12.13.17.18.)<br />
+닭정육떡치즈오븐구이*(1.2.5.6.12.13.15.18.)<br />
+깍두기*(9.)<br />
+망고푸딩*(1.5.13.)</span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">21<span>(수)</span></div>
+					<dl class="slider_food_list slider_food21 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230621_125836_090061300_1_middle_thumb.png','백미밥*순두부달걀탕*(1.5.9.13.)*안동찜닭(다리살만)(2.5.6.8.13.)매운콩나물무침...(5.13.)배추김치(9.)도라에몽암기빵(1.2.5.6.13.)김자반*(5.)'); return false;"><img src="./../data_files/board/42/2023/20230621_125836_090061300_1_thumb.png" alt="아침식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">백미밥*<br />
+순두부달걀탕*(1.5.9.13.)<br />
+*안동찜닭(다리살만)(2.5.6.8.13.)<br />
+매운콩나물무침...(5.13.)<br />
+배추김치(9.)<br />
+도라에몽암기빵(1.2.5.6.13.)<br />
+김자반*(5.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230621_125836_090183700_2_middle_thumb.png','김치콩나물국*(5.6.9.13.18.)우렁죽순초무침*(5.6.13.)치킨텐더마요덮밥...(1.5.6.13.)회오리감자(5.6.12.13.)깍두기*(9.)사과당근주스.'); return false;"><img src="./../data_files/board/42/2023/20230621_125836_090183700_2_thumb.png" alt="점심식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">김치콩나물국*(5.6.9.13.18.)<br />
+우렁죽순초무침*(5.6.13.)<br />
+치킨텐더마요덮밥...(1.5.6.13.)<br />
+회오리감자(5.6.12.13.)<br />
+깍두기*(9.)<br />
+사과당근주스.</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230622_150715_051350500_3_middle_thumb.png','10곡잡곡밥(5.)양지육개장*(5.6.9.13.18.)궁중떡볶이(5.6.13.14.16.18.)잔멸치땅콩볶음*(4.5.13.)제육불고기또띠아쌈*(1.2.5.6.10.12.13.16.18.)배추김치(9.)'); return false;"><img src="./../data_files/board/42/2023/20230622_150715_051350500_3_thumb.png" alt="저녁식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">10곡잡곡밥(5.)<br />
+양지육개장*(5.6.9.13.18.)<br />
+궁중떡볶이(5.6.13.14.16.18.)<br />
+잔멸치땅콩볶음*(4.5.13.)<br />
+제육불고기또띠아쌈*(1.2.5.6.10.12.13.16.18.)<br />
+배추김치(9.)</span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">22<span>(목)</span></div>
+					<dl class="slider_food_list slider_food22 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230622_114647_014699700_1_middle_thumb.png','백미밥(자율)..돈육메추리알장조림(1.5.6.10.13.18.)배추김치(9.)소고기버섯죽*(1.9.13.16.)모닝빵샌드위치(1.2.5.6.13.)골라먹는우유(2.)비타민젤리(13.)'); return false;"><img src="./../data_files/board/42/2023/20230622_114647_014699700_1_thumb.png" alt="아침식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">백미밥(자율)..<br />
+돈육메추리알장조림<br />
+(1.5.6.10.13.18.)<br />
+배추김치(9.)<br />
+소고기버섯죽*(1.9.13.16.)<br />
+모닝빵샌드위치(1.2.5.6.13.)<br />
+골라먹는우유(2.)<br />
+비타민젤리(13.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"><a  href="#none" onclick="imgOpen('./../data_files/board/42/2023/20230622_114647_014827500_2_middle_thumb.png','*현미찹쌀밥쇠고기숙주맑은국(5.6.13.16.18.)돼지갈비단호박찜*(5.6.10.13.18.)도토리묵김치무침(5.6.9.13.18.)바지락살무나물배추김치(9.)수리취떡(5.13.)오미자쥬스(13.)'); return false;"><img src="./../data_files/board/42/2023/20230622_114647_014827500_2_thumb.png" alt="점심식사 사진" /></a></div>
+                            <div class="content_info"><span class="content">*현미찹쌀밥<br />
+쇠고기숙주맑은국(5.6.13.16.18.)<br />
+돼지갈비단호박찜*<br />
+(5.6.10.13.18.)<br />
+도토리묵김치무침(5.6.9.13.18.)<br />
+바지락살무나물<br />
+배추김치(9.)<br />
+수리취떡(5.13.)<br />
+오미자쥬스(13.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">기장밥...<br />
+순두부찌개...(5.6.9.10.13.)<br />
+어묵고추장볶음(1.5.6.13.16.18.)<br />
+오리허브소금구이(5.6.13.18.)<br />
+김구이(13.)<br />
+깍두기*(9.)<br />
+사과<br />
+깻잎무쌈/</span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">23<span>(금)</span></div>
+					<dl class="slider_food_list slider_food23 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">백미밥..<br />
+떡만두국(주식)..<br />
+(1.5.6.9.10.13.16.18.)<br />
+시금치나물무침*(5.6.)<br />
+참치김치볶음<br />
+*(5.6.9.13.18.)<br />
+깍두기*(9.)<br />
+키위쥬스(5.13.)<br />
+버터롤케이크*(1.2.5.6.13.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">현미찹쌀밥<br />
+설렁탕&소면*(2.5.6.13.15.16.)<br />
+콩나물무침(5.)<br />
+닭살카레떡볶음<br />
+(2.5.6.13.15.16.18.)<br />
+깍두기*(9.)<br />
+수제불고햄버거*(1.2.5.6.10.12.13.15.16.18.)<br />
+스위트청포도음료.(13.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content"></span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="sat mobile_none_food satNone saturdayNone">
+				<div class="food_list_box">
+					<div class="day_num">24<span>(토)</span></div>
+					<dl class="slider_food_list slider_food24 food_tep">
+                        
+						
+				</dl>	
+					
+					
+				</div>
+			</li>
+	
+	
+		</ul>
+		
+		<ul class="day">
+		
+	
+	
+			<li class="sun mobile_none_food sunNone sundayNone">
+				<div class="food_list_box">
+					<div class="day_num">25<span>(일)</span></div>
+					<dl class="slider_food_list slider_food25 food_tep">
+                        
+						
+				</dl>	
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="today ">
+				<div class="food_list_box">
+					<div class="day_num">26<span>(월)</span></div>
+					<dl class="slider_food_list slider_food26 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">백미밥*<br />
+*우렁살된장찌개(5.6.12.13.)<br />
+베이컨스크램블(1.10.)<br />
+모듬견과류볶음*(4.5.)<br />
+돈육완자전&케찹*(1.2.5.6.10.12.13.15.16.)<br />
+깍두기*(9.)<br />
+바나나/딸기우유*(2.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">차조밥*<br />
+새우살미역국(5.6.9.13.18.)<br />
+미역줄기볶음..(1.5.6.8.13.)<br />
+삼겹살오븐구이&상추쌈*<br />
+(5.6.8.10.13.18.)<br />
+고추장계란볶이<br />
+(1.2.5.6.12.13.16.18.)<br />
+배추김치(9.)<br />
+수박후르츠화채*(2.5.11.13.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">백미밥(자율)*<br />
+돈코츠라멘(주식)<br />
+(2.5.6.10.13.15.16.)<br />
+오이사과무침(5.6.13.)<br />
+단무지쪽파무침<br />
+치킨가라아게(1.2.5.6.11.13.15.)<br />
+배추김치(9.)<br />
+거꾸로요구르트.(2.)</span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">27<span>(화)</span></div>
+					<dl class="slider_food_list slider_food27 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">백미밥*<br />
+돈육김치찌개(5.9.10.13.18.)<br />
+도라지진미채무침(5.6.13.17.)<br />
+닭정육데리소스조림*(5.6.9.10.13.15.18.)<br />
+석박지(9.13.18.)<br />
+*바나나<br />
+요플레(토핑다크초코)..&nbsp;(2.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">*찰흑미밥<br />
+양지육개장*(5.6.9.13.18.)<br />
+골뱅이야채무침/소면(5.6.13.18.)<br />
+감자채파프리카볶음*(5.)<br />
+파인애플함박스테이크*(1.2.5.6.10.12.13.)<br />
+석박지(9.13.18.)<br />
+링도너츠(1.2.5.6.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">백미밥(자율)*<br />
+파인애플새우볶음밥*<br />
+(2.5.6.9.10.12.13.17.18.)<br />
+분짜<br />
+(1.2.5.6.10.12.13.15.16.18.)<br />
+새우짜조롤<br />
+(1.5.6.9.10.13.16.18.)<br />
+배추김치(9.)<br />
+테이크얼라이브&nbsp;망고쥬스</span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">28<span>(수)</span></div>
+					<dl class="slider_food_list slider_food28 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">백미밥(자율)*<br />
+잉글리시블랙퍼스트*<br />
+(1.2.5.6.10.13.15.)<br />
+양상추샐러드/블루베리드레싱*<br />
+(1.2.5.12.13.)<br />
+배추김치(9.)<br />
+양송이스프(2.5.6.13.16.)<br />
+*크로와상&딸기쨈(1.2.5.6.13.)<br />
+골라먹는음료(5.13.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">오리훈제김치볶음밥*<br />
+(2.5.6.9.13.18.)<br />
+맑은콩나물국..(5.13.)<br />
+오이소박이*(5.6.9.13.)<br />
+가지튀김/소스(5.6.12.13.)<br />
+계란후라이(1.5.)<br />
+깍두기(9.13.)<br />
+골드파인애플*</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">백미밥..<br />
+닭곰탕...(13.)<br />
+*콩나물무침(5.)<br />
+주꾸미불고기(5.6.10.13.)<br />
+알감자버터구이..(2.13.)<br />
+깍두기*(9.)<br />
+모짜렐라핫도그&케첩*(1.2.5.6.10.16.)</span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">29<span>(목)</span></div>
+					<dl class="slider_food_list slider_food29 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">백미밥*<br />
+감자두부된장국*(5.6.)<br />
+연배추된장무침(5.6.18.)<br />
+제육채소볶음*(5.6.8.10.13.18.)<br />
+배추김치(9.)<br />
+*김구이(13.)<br />
+카스테라(생크림)(1.2.5.6.)<br />
+백색우유(100ml)(2.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">기장밥<br />
+돈등뼈감자탕*(5.6.9.10.13.)<br />
+쌈배추겉절이(13.)<br />
+비엔나메추리알볶음(1.2.5.6.10.12.13.15.)<br />
+가자미카레구이(2.5.6.13.16.)<br />
+석박지(9.13.18.)<br />
+드링킹요구르트(딸기/사과)*(2.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">김주먹밥(5.13.)<br />
+까르보나라해물스파게티(1.2.5.6.9.12.13.16.18.)<br />
+열대과일샐러드(5.6.12.13.)<br />
+배추김치..(9.13.)<br />
+오이피클*(13.)<br />
+조각피자<br />
+(1.2.5.6.10.12.13.15.16.)<br />
+유자에이드(13.)</span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="">
+				<div class="food_list_box">
+					<div class="day_num">30<span>(금)</span></div>
+					<dl class="slider_food_list slider_food30 food_tep">
+                        
+                        
+                        <dt class="food_title1"><span>아침</span></dt>
+                        <dd class="con1">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">백미밥*<br />
+북어포뭇국(1.9.13.)<br />
+버섯야채볶음(5.)<br />
+한입돈까스/케첩<br />
+(1.5.6.10.12.13.15.16.)<br />
+요구르트(2.)<br />
+조각파인애플<br />
+바바리안쉘도넛*(1.2.5.6.13.)</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title2 on"><span>점심</span></dt>
+                        <dd class="con2 first">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content">찰보리밥*<br />
+된장찌개(5.6.9.13.18.)<br />
+돼지고기편육&보쌈김치*<br />
+(5.6.9.10.13.18.)<br />
+상추겉절이*(5.6.13.18.)<br />
+오징어브로컬리다시마초장*<br />
+(5.6.13.)<br />
+새송이버섯볶음*(5.)<br />
+식혜</span></div>
+                        </dd>
+                        
+                        
+                        <dt class="food_title3"><span>저녁</span></dt>
+                        <dd class="con3">
+                            <div class="food_photo board_img_view"></div>
+                            <div class="content_info"><span class="content"></span></div>
+                        </dd>
+                        
+					
+					
+					
+				</div>
+			</li>
+	
+		
+	
+	
+			<li class="saturday mobile_none_not satNone saturdayNone">&nbsp;</li>
+	
+		</ul>
+	</div>
+</form>
+</div>
+
+	
+
+</div>
+
+        	</div>
+	</div>	</div>
+</div>
+<div id="footerGroup">
+	<div id="footer">
+		<div class="f_util"> 
+			<ul>
+				<li><a href="../main/main.php">홈으로</a></li>
+				 
+				
+				<li><a href="../member/index.php?mode=login&amp;targetUrl=L3hib2FyZC9ib2FyZC5waHA-dGJudW09NDI!">로그인</a></li>
+				<li><a href="../member/index.php?mode=write">회원가입</a></li>
+				
+				<li><a href="../sub/page.php?page_code=help_sitemap&mode=sitemap">사이트맵</a></li>
+			</ul>
+			<p class="first_top_go"><a href="#none;">TOP</a></p>
+		</div>
+		<ul class="f_menu">
+			<li class="private"><a href="../sub/page.php?page_code=help_08">개인정보처리방침</a></li>
+			<li><a href="../sub/page.php?page_code=help_09">영상정보처리기기운영·관리방침</a></li>
+			<li><a href="../sub/page.php?page_code=help_10">저작권신고 및 보호규정</a></li>
+            <li class="last"><a href="../sub/page.php?page_code=info_07">찾아오시는길</a></li>
+		</ul>
+        <div class="bottom_count">
+            <dl><dt><span></span>Today :</dt>
+            <dd>492</dd></dl>
+            <dl><dt><span></span>Total :</dt>
+            <dd>3,250,084</dd></dl>
+		</div>
+		<p class="address">우) 62423 광주광역시 광산구 상무대로 312<span class="tell">교무실 062)949-6800(08:30~16:30) 행정실 062)949-6806(08:30~16:30) 팩스 062)941-7545 당직실 062)949-6899(평일야간, 휴일)</span><span class="copy">COPYRIGHT(C) BY 광주소프트웨어마이스터고등학교 ALL RIGHTS RESERVED.</span></p>
+	</div>
+</div>
+<div id="layerPopupView">
+</div>
+</body>
+</html>
+
+<!-- <br /><span style="color:#000000">Time:0.30sec | Memory:</span> -->
