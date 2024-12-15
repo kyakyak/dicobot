@@ -128,4 +128,4 @@ async def on_message(message):
     elif content.startswith('gsm 제 1 법칙'):
         await channel.send("```컴퓨터를 켜놓은 상태로 자리를 비우지 않는다.g```")
 
-bot.run('MTEyMjcyMTgzMjc5ODI2OTUyMg.G8IrU1.FfOqK0zOkcE0K7lPpTWS_PysrBoda7ytIrgFD4')
+bot.run('MTEyMjcyMTgzMjc5ODI2OTUyMg.GqLGSL.1vDSSjtBGy5w-3630NSkE9ovTzI8gt9TJCuNPo')
