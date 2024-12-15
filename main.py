@@ -30,23 +30,29 @@ if bsObject.find(attrs={"class": "today"}).find(attrs={"class": "con3"}) == None
     strD = "석식이 없습니다."
     check += 1
 
-if check / 100 == 1.0:
+
+if int(check / 100) != 1:
     Breakfast = bsObject.find(attrs={"class": "today"}).find(attrs={"class": "con1"}).find(attrs={"class": "content"})
 
     for tag in Breakfast:
         strB = strB + tag.get_text()
 
-if check / 100 == 1.0:
+check %= 100
+
+if int(check / 10) != 1:
     Lunch = bsObject.find(attrs={"class": "today"}).find(attrs={"class": "con2 first"}).find(attrs={"class": "content"})
 
     for tag in Lunch:
         strL = strL + tag.get_text()
 
-if check / 100 == 1.0:
+check %= 10
+
+if int(check / 1) != 1:
     Dinner = bsObject.find(attrs={"class": "today"}).find(attrs={"class": "con3"}).find(attrs={"class": "content"})
 
     for tag in Dinner:
         strD = strD + tag.get_text()
+
 
 
 @bot.event
@@ -100,5 +106,6 @@ async def on_message(message):
 
     elif content.startswith('저녁'):
         await channel.send("```-석식-\n\n" + strD + "```")
+
 
 bot.run('MTEyMjcyMTgzMjc5ODI2OTUyMg.GqLGSL.1vDSSjtBGy5w-3630NSkE9ovTzI8gt9TJCuNPo')
