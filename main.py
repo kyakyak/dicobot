@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='/', intents=intents)
+token = 'discord_bot_token'
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"}
@@ -60,32 +61,6 @@ async def on_ready():
     await bot.change_presence(activity=discord.Game(name="급식 탐색"))
     print("봇이 시작되었습니다.")
 
-
-@bot.command()
-async def 급식(ctx):
-    await ctx.send("```-조식-\n\n" + strB + "\n\n-중식-\n\n" + strL + "\n\n-석식-\n\n" + strD + "```")
-
-
-@bot.command()
-async def 아침(ctx):
-    await ctx.send("```-조식-\n\n" + strB + "```")
-
-
-@bot.command()
-async def 점심(ctx):
-    await ctx.send("```-중식-\n\n" + strL + "```")
-
-
-@bot.command()
-async def 저녁(ctx):
-    await ctx.send("```-석식-\n\n" + strD + "```")
-
-
-@bot.command()
-async def 명령어(ctx):
-    await ctx.send("```명령어 종류\n\n급식\n아침\n점심\n저녁\n명령어```")
-
-
 @bot.event
 async def on_message(message):
     content = message.content
@@ -98,14 +73,14 @@ async def on_message(message):
     elif content.startswith('급식'):
         await channel.send("```-조식-\n\n" + strB + "\n\n-중식-\n\n" + strL + "\n\n-석식-\n\n" + strD + "```")
 
-    elif content.startswith('아침'):
+    elif content.startswith('아침') or content.startswith('조식'):
         await channel.send("```-조식-\n\n" + strB + "```")
 
-    elif content.startswith('점심'):
+    elif content.startswith('점심') or content.startswith('중식'):
         await channel.send("```-중식-\n\n" + strL + "```")
 
-    elif content.startswith('저녁'):
+    elif content.startswith('저녁') or content.startswith('석식'):
         await channel.send("```-석식-\n\n" + strD + "```")
 
 
-bot.run('MTEyMjcyMTgzMjc5ODI2OTUyMg.GqLGSL.1vDSSjtBGy5w-3630NSkE9ovTzI8gt9TJCuNPo')
+bot.run(token)
